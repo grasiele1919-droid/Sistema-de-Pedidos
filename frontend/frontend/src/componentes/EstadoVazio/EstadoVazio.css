@@ -1,0 +1,33 @@
+.estado-vazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.estado-vazio__icone {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 6px;
+  border-radius: 50%;
+  background: var(--cor-superficie-suave);
+  font-size: 2rem;
+}
+
+.estado-vazio__titulo {
+  font-size: 1.05rem;
+}
+
+.estado-vazio__descricao {
+  max-width: 300px;
+  color: var(--cor-texto-suave);
+  font-size: 0.9rem;
+}
+
+.estado-vazio .botao {
+  margin-top: 10px;
+}

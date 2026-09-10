@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "categoriaId": "lanches",
+    "nome": "Brasa Clássico",
+    "descricao": "Blend bovino 160g, queijo prato, alface, tomate, cebola roxa e molho da casa no pão brioche.",
+    "preco": 29.9,
+    "imagem": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 2,
+    "categoriaId": "lanches",
+    "nome": "Smash Duplo Cheddar",
+    "descricao": "Dois smash burgers de 90g, cheddar derretido em dobro, picles e maionese defumada.",
+    "preco": 34.9,
+    "imagem": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 3,
+    "categoriaId": "lanches",
+    "nome": "Monstro Bacon",
+    "descricao": "Três blends de 120g, bacon crocante, cheddar, cebola caramelizada e barbecue.",
+    "preco": 44.9,
+    "imagem": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 4,
+    "categoriaId": "lanches",
+    "nome": "X-Salada Fresh",
+    "descricao": "Blend 150g, muçarela, alface americana, tomate e maionese verde.",
+    "preco": 27.9,
+    "imagem": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 5,
+    "categoriaId": "lanches",
+    "nome": "Rústico da Casa",
+    "descricao": "Blend 180g, queijo coalho, bacon, rúcula, tomate e aioli de alho assado.",
+    "preco": 36.9,
+    "imagem": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 6,
+    "categoriaId": "lanches",
+    "nome": "Frango BBQ",
+    "descricao": "Frango desfiado ao molho barbecue, coleslaw cremosa e picles no pão brioche.",
+    "preco": 31.9,
+    "imagem": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 7,
+    "categoriaId": "lanches",
+    "nome": "Veggie Tropical",
+    "descricao": "Burger de grão-de-bico, abacaxi grelhado, mix de folhas e molho de iogurte.",
+    "preco": 32.9,
+    "imagem": "https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 8,
+    "categoriaId": "combos",
+    "nome": "Combo Clássico",
+    "descricao": "Brasa Clássico + batata frita média + refrigerante lata.",
+    "preco": 42.9,
+    "imagem": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 9,
+    "categoriaId": "combos",
+    "nome": "Combo Smash",
+    "descricao": "Smash Duplo Cheddar + batata rústica + refrigerante lata.",
+    "preco": 47.9,
+    "imagem": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 10,
+    "categoriaId": "combos",
+    "nome": "Combo Casal",
+    "descricao": "2 Brasa Clássico + batata frita grande + 2 refrigerantes lata.",
+    "preco": 79.9,
+    "imagem": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 11,
+    "categoriaId": "porcoes",
+    "nome": "Batata Frita",
+    "descricao": "Batata palito crocante com sal e alecrim. Serve 2 pessoas.",
+    "preco": 18.9,
+    "imagem": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 12,
+    "categoriaId": "porcoes",
+    "nome": "Batata Parmesão",
+    "descricao": "Batata frita finalizada com parmesão ralado e salsinha fresca.",
+    "preco": 24.9,
+    "imagem": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 13,
+    "categoriaId": "porcoes",
+    "nome": "Batata Rústica",
+    "descricao": "Batata com casca, temperada com páprica defumada e ervas.",
+    "preco": 21.9,
+    "imagem": "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 14,
+    "categoriaId": "porcoes",
+    "nome": "Onion Rings",
+    "descricao": "Anéis de cebola empanados na cerveja, acompanha molho barbecue.",
+    "preco": 22.9,
+    "imagem": "https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 15,
+    "categoriaId": "porcoes",
+    "nome": "Chicken Fingers",
+    "descricao": "Tiras de frango empanadas com molho de mostarda e mel.",
+    "preco": 26.9,
+    "imagem": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 16,
+    "categoriaId": "bebidas",
+    "nome": "Refrigerante Lata",
+    "descricao": "Coca-Cola, Coca Zero, Guaraná ou Sprite — 350ml.",
+    "preco": 6.9,
+    "imagem": "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 17,
+    "categoriaId": "bebidas",
+    "nome": "Água Tônica",
+    "descricao": "Lata 350ml, bem gelada.",
+    "preco": 7.5,
+    "imagem": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 18,
+    "categoriaId": "bebidas",
+    "nome": "Suco de Laranja",
+    "descricao": "Natural, feito na hora — 400ml.",
+    "preco": 11.9,
+    "imagem": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 19,
+    "categoriaId": "bebidas",
+    "nome": "Soda Italiana",
+    "descricao": "Frutas vermelhas, água com gás, limão e hortelã — 400ml.",
+    "preco": 14.9,
+    "imagem": "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 20,
+    "categoriaId": "sobremesas",
+    "nome": "Milkshake Oreo",
+    "descricao": "Sorvete de baunilha batido com Oreo e calda de chocolate — 400ml.",
+    "preco": 19.9,
+    "imagem": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 21,
+    "categoriaId": "sobremesas",
+    "nome": "Milkshake de Morango",
+    "descricao": "Sorvete de baunilha com morangos frescos — 400ml.",
+    "preco": 18.9,
+    "imagem": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 22,
+    "categoriaId": "sobremesas",
+    "nome": "Taça Brownie",
+    "descricao": "Brownie, sorvete de creme, chantilly e calda quente de chocolate.",
+    "preco": 21.9,
+    "imagem": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 23,
+    "categoriaId": "sobremesas",
+    "nome": "Donut Recheado",
+    "descricao": "Cobertura de chocolate e granulado colorido, recheio de doce de leite.",
+    "preco": 9.9,
+    "imagem": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  }
+]

@@ -1,0 +1,122 @@
+.cartao-pedido {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 16px 16px 20px;
+  border-radius: var(--raio-grande);
+  background: var(--cor-superficie);
+  box-shadow: inset 5px 0 0 var(--cor-status), var(--sombra);
+}
+
+.cartao-pedido--finalizado {
+  background: color-mix(in srgb, var(--cor-superficie) 70%, var(--cor-fundo));
+}
+
+.cartao-pedido__topo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cartao-pedido__numero {
+  color: var(--cor-texto-suave);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cartao-pedido__cliente {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.cartao-pedido__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  color: var(--cor-texto-suave);
+  font-size: 0.85rem;
+}
+
+.cartao-pedido__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cartao-pedido__itens {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 12px 0;
+  border-top: 1px dashed var(--cor-borda);
+  border-bottom: 1px dashed var(--cor-borda);
+  list-style: none;
+  font-size: 0.92rem;
+}
+
+.cartao-pedido__itens li {
+  display: flex;
+  gap: 8px;
+}
+
+.cartao-pedido__quantidade {
+  min-width: 26px;
+  color: var(--cor-primaria);
+  font-weight: 800;
+}
+
+.cartao-pedido__item-nome {
+  flex: 1;
+}
+
+.cartao-pedido__item-preco {
+  color: var(--cor-texto-suave);
+}
+
+.cartao-pedido__observacao {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #fff8e1;
+  color: #7a5a00;
+  font-size: 0.85rem;
+}
+
+.cartao-pedido__total {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  color: var(--cor-texto-suave);
+  font-weight: 600;
+}
+
+.cartao-pedido__total strong {
+  color: var(--cor-texto);
+  font-size: 1.2rem;
+}
+
+/* Pedido finalizado não tem botão de avançar: o seletor ocupa a linha toda. */
+.cartao-pedido__acoes {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.cartao-pedido__acoes .seletor-status {
+  flex: 1 1 0;
+}
+
+.cartao-pedido__avancar {
+  flex: 1.25 1 0;
+  min-width: 0;
+  padding: 0 12px;
+  background: var(--cor-escura);
+  font-size: 0.92rem;
+}
+
+.cartao-pedido__avancar:hover:not(:disabled) {
+  background: #3a322c;
+}

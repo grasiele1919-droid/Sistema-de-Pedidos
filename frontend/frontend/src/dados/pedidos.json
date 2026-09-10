@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "numero": 101,
+    "cliente": "Marina",
+    "tipo": "local",
+    "observacao": "",
+    "itens": [
+      { "produtoId": 1, "nome": "Brasa Clássico", "precoUnitario": 29.9, "quantidade": 2 },
+      { "produtoId": 11, "nome": "Batata Frita", "precoUnitario": 18.9, "quantidade": 1 }
+    ],
+    "total": 78.7,
+    "status": "entregue",
+    "criadoEm": "2026-09-10T21:05:00.000Z",
+    "atualizadoEm": "2026-09-10T21:31:00.000Z"
+  },
+  {
+    "id": 2,
+    "numero": 102,
+    "cliente": "Carlos",
+    "tipo": "viagem",
+    "observacao": "",
+    "itens": [
+      { "produtoId": 9, "nome": "Combo Smash", "precoUnitario": 47.9, "quantidade": 1 },
+      { "produtoId": 20, "nome": "Milkshake Oreo", "precoUnitario": 19.9, "quantidade": 1 }
+    ],
+    "total": 67.8,
+    "status": "entregue",
+    "criadoEm": "2026-09-10T21:12:00.000Z",
+    "atualizadoEm": "2026-09-10T21:35:00.000Z"
+  },
+  {
+    "id": 3,
+    "numero": 103,
+    "cliente": "Ana",
+    "tipo": "local",
+    "observacao": "Cliente desistiu",
+    "itens": [
+      { "produtoId": 2, "nome": "Smash Duplo Cheddar", "precoUnitario": 34.9, "quantidade": 1 }
+    ],
+    "total": 34.9,
+    "status": "cancelado",
+    "criadoEm": "2026-09-10T21:20:00.000Z",
+    "atualizadoEm": "2026-09-10T21:23:00.000Z"
+  },
+  {
+    "id": 4,
+    "numero": 104,
+    "cliente": "Juliana",
+    "tipo": "local",
+    "observacao": "Sem molho de iogurte",
+    "itens": [
+      { "produtoId": 7, "nome": "Veggie Tropical", "precoUnitario": 32.9, "quantidade": 1 },
+      { "produtoId": 18, "nome": "Suco de Laranja", "precoUnitario": 11.9, "quantidade": 1 }
+    ],
+    "total": 44.8,
+    "status": "pronto",
+    "criadoEm": "2026-09-10T21:26:00.000Z",
+    "atualizadoEm": "2026-09-10T21:48:00.000Z"
+  },
+  {
+    "id": 5,
+    "numero": 105,
+    "cliente": "Rafael",
+    "tipo": "viagem",
+    "observacao": "Bacon bem passado",
+    "itens": [
+      { "produtoId": 3, "nome": "Monstro Bacon", "precoUnitario": 44.9, "quantidade": 1 },
+      { "produtoId": 14, "nome": "Onion Rings", "precoUnitario": 22.9, "quantidade": 1 },
+      { "produtoId": 16, "nome": "Refrigerante Lata", "precoUnitario": 6.9, "quantidade": 2 }
+    ],
+    "total": 81.6,
+    "status": "em_preparo",
+    "criadoEm": "2026-09-10T21:38:00.000Z",
+    "atualizadoEm": "2026-09-10T21:42:00.000Z"
+  },
+  {
+    "id": 6,
+    "numero": 106,
+    "cliente": "Beatriz",
+    "tipo": "local",
+    "observacao": "",
+    "itens": [
+      { "produtoId": 10, "nome": "Combo Casal", "precoUnitario": 79.9, "quantidade": 1 },
+      { "produtoId": 22, "nome": "Taça Brownie", "precoUnitario": 21.9, "quantidade": 1 }
+    ],
+    "total": 101.8,
+    "status": "recebido",
+    "criadoEm": "2026-09-10T21:44:00.000Z",
+    "atualizadoEm": "2026-09-10T21:44:00.000Z"
+  },
+  {
+    "id": 7,
+    "numero": 107,
+    "cliente": "Pedro",
+    "tipo": "viagem",
+    "observacao": "Frango BBQ sem picles",
+    "itens": [
+      { "produtoId": 6, "nome": "Frango BBQ", "precoUnitario": 31.9, "quantidade": 1 },
+      { "produtoId": 12, "nome": "Batata Parmesão", "precoUnitario": 24.9, "quantidade": 1 },
+      { "produtoId": 19, "nome": "Soda Italiana", "precoUnitario": 14.9, "quantidade": 1 }
+    ],
+    "total": 71.7,
+    "status": "recebido",
+    "criadoEm": "2026-09-10T21:47:00.000Z",
+    "atualizadoEm": "2026-09-10T21:47:00.000Z"
+  }
+]

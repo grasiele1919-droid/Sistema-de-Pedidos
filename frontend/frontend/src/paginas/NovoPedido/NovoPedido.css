@@ -1,0 +1,43 @@
+.novo-pedido__intro {
+  margin-bottom: 4px;
+}
+
+.novo-pedido__filtros {
+  position: sticky;
+  top: var(--altura-cabecalho);
+  z-index: 10;
+  padding: 8px 0;
+  background: var(--cor-fundo);
+}
+
+.novo-pedido__secao {
+  margin-top: 16px;
+  scroll-margin-top: calc(var(--altura-cabecalho) + 64px);
+}
+
+.novo-pedido__secao-titulo {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.novo-pedido__grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 12px;
+}
+
+@media (min-width: 1024px) {
+  .novo-pedido {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 360px;
+    align-items: start;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .novo-pedido {
+    grid-template-columns: minmax(0, 1fr) 390px;
+  }
+}

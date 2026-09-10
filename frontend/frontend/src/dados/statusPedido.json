@@ -1,0 +1,47 @@
+[
+  {
+    "id": "recebido",
+    "nome": "Recebido",
+    "cor": "#2563eb",
+    "ordem": 1,
+    "proximo": "em_preparo",
+    "acaoAvancar": "Iniciar preparo",
+    "finalizado": false
+  },
+  {
+    "id": "em_preparo",
+    "nome": "Em preparo",
+    "cor": "#d97706",
+    "ordem": 2,
+    "proximo": "pronto",
+    "acaoAvancar": "Marcar pronto",
+    "finalizado": false
+  },
+  {
+    "id": "pronto",
+    "nome": "Pronto",
+    "cor": "#16a34a",
+    "ordem": 3,
+    "proximo": "entregue",
+    "acaoAvancar": "Marcar entregue",
+    "finalizado": false
+  },
+  {
+    "id": "entregue",
+    "nome": "Entregue",
+    "cor": "#64748b",
+    "ordem": 4,
+    "proximo": null,
+    "acaoAvancar": null,
+    "finalizado": true
+  },
+  {
+    "id": "cancelado",
+    "nome": "Cancelado",
+    "cor": "#dc2626",
+    "ordem": 5,
+    "proximo": null,
+    "acaoAvancar": null,
+    "finalizado": true
+  }
+]

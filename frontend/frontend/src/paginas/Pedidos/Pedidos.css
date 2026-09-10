@@ -1,0 +1,29 @@
+.pedidos__topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pedidos__filtros {
+  position: sticky;
+  top: var(--altura-cabecalho);
+  z-index: 10;
+  margin-top: 8px;
+  padding: 8px 0;
+  background: var(--cor-fundo);
+}
+
+.pedidos__lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  align-items: start;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.pedidos__rodape {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}

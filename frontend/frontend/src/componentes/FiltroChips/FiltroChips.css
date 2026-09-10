@@ -1,0 +1,67 @@
+.filtro-chips {
+  display: flex;
+  gap: 8px;
+  margin: 0 -16px;
+  padding: 4px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+}
+
+.filtro-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.filtro-chips__chip {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 999px;
+  background: var(--cor-superficie);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  scroll-snap-align: start;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.filtro-chips__chip--ativa {
+  border-color: var(--cor-escura);
+  background: var(--cor-escura);
+  color: #fff;
+}
+
+.filtro-chips__ponto {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cor-chip);
+}
+
+.filtro-chips__contador {
+  min-width: 22px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--cor-superficie-suave);
+  color: var(--cor-texto-suave);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.filtro-chips__chip--ativa .filtro-chips__contador {
+  background: rgb(255 255 255 / 0.18);
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .filtro-chips {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 4px 0;
+    overflow: visible;
+  }
+}

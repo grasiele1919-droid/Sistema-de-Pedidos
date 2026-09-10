@@ -1,0 +1,90 @@
+/* Celular: barra fixa no rodapé (fácil de alcançar com o polegar). */
+.navegacao {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 30;
+  display: flex;
+  height: calc(var(--altura-navegacao) + var(--seguro-inferior));
+  padding-bottom: var(--seguro-inferior);
+  border-top: 1px solid var(--cor-borda);
+  background: var(--cor-superficie);
+}
+
+.navegacao__item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  border: 0;
+  background: none;
+  color: var(--cor-texto-suave);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.navegacao__item--ativo {
+  color: var(--cor-primaria);
+}
+
+.navegacao__icone {
+  position: relative;
+  display: inline-flex;
+}
+
+.navegacao__contador {
+  position: absolute;
+  top: -6px;
+  right: -12px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--cor-primaria);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* Tablet/desktop: vira abas dentro do cabeçalho. */
+@media (min-width: 768px) {
+  .navegacao {
+    position: static;
+    gap: 6px;
+    height: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .navegacao__item {
+    flex: none;
+    flex-direction: row;
+    gap: 14px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: rgb(255 255 255 / 0.75);
+    font-size: 0.95rem;
+  }
+
+  .navegacao__item:hover {
+    background: rgb(255 255 255 / 0.08);
+    color: #fff;
+  }
+
+  .navegacao__item--ativo,
+  .navegacao__item--ativo:hover {
+    background: var(--cor-primaria);
+    color: #fff;
+  }
+
+  .navegacao__item--ativo .navegacao__contador {
+    background: #fff;
+    color: var(--cor-primaria);
+  }
+}

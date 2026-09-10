@@ -1,0 +1,32 @@
+.controle-quantidade {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--cor-primaria-clara);
+}
+
+.controle-quantidade__botao {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cor-superficie);
+  color: var(--cor-primaria);
+  box-shadow: 0 1px 2px rgb(31 26 23 / 0.08);
+}
+
+.controle-quantidade__botao--mais {
+  background: var(--cor-primaria);
+  color: #fff;
+}
+
+.controle-quantidade__valor {
+  min-width: 26px;
+  font-weight: 800;
+  text-align: center;
+}

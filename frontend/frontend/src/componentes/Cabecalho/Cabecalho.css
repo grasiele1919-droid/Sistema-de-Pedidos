@@ -1,0 +1,53 @@
+/* Sem transform/filter aqui: a navegação é position: fixed dentro do cabeçalho no celular. */
+.cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--cor-escura);
+  color: #fff;
+}
+
+.cabecalho__conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: var(--largura-maxima);
+  height: var(--altura-cabecalho);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.cabecalho__marca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cabecalho__logo {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: var(--cor-primaria);
+  font-size: 1.3rem;
+}
+
+.cabecalho__nome {
+  display: block;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.cabecalho__slogan {
+  display: block;
+  color: rgb(255 255 255 / 0.6);
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .cabecalho__conteudo {
+    padding: 0 24px;
+  }
+}

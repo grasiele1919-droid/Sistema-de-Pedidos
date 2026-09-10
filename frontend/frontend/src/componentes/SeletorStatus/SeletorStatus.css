@@ -1,0 +1,38 @@
+.seletor-status {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+/* 16px evita o zoom automático do iOS ao focar. */
+.seletor-status__campo {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 30px 0 12px;
+  border: 1.5px solid var(--cor-borda);
+  border-radius: var(--raio);
+  background: var(--cor-superficie);
+  font-size: 16px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  appearance: none;
+}
+
+.seletor-status__campo:focus {
+  border-color: var(--cor-primaria);
+  outline: none;
+}
+
+.seletor-status__campo:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.seletor-status__seta {
+  position: absolute;
+  right: 10px;
+  color: var(--cor-texto-suave);
+  pointer-events: none;
+}
