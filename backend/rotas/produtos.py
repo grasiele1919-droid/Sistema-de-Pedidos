@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from esquemas.produto import ProdutoSaida
 
 # APIRouter agrupa as rotas de produtos para o arquivo principal incluí-las na API.
 router = APIRouter()
@@ -11,7 +12,7 @@ produtos = [
 
 
 # Esta rota apresenta os produtos e permite filtrar por categoria quando ela for informada.
-@router.get("", summary="Listar produtos")
+@router.get("", response_model=list[ProdutoSaida], summary="Listar produtos")
 def listar_produtos(categoria: str | None = None):
     """Retorna todos os produtos ou somente os da categoria solicitada."""
     if categoria is None:
@@ -26,7 +27,7 @@ def listar_produtos(categoria: str | None = None):
 
 
 # Esta rota localiza um produto pelo ID para a tela consultar seus detalhes.
-@router.get("/{produto_id}", summary="Consultar produto")
+@router.get("/{produto_id}", response_model=ProdutoSaida, summary="Consultar produto")
 def obter_produto(produto_id: int):
     """Retorna um produto pelo ID ou informa que ele não foi encontrado."""
     for produto in produtos:

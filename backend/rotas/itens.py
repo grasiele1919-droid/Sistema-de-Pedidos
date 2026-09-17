@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from esquemas.item import ItemSaida
 
 router = APIRouter()
 
@@ -8,7 +9,7 @@ cardapio = [
 ]
 
 
-@router.get("", summary="Listar itens do cardápio")
+@router.get("", response_model=list[ItemSaida], summary="Listar itens do cardápio")
 def listar_itens(categoria: str | None = None):
     """Retorna todos os itens ou filtra pelo valor de `categoria`."""
     if categoria is None:
@@ -21,7 +22,7 @@ def listar_itens(categoria: str | None = None):
     return filtrados
 
 
-@router.get("/{item_id}", summary="Consultar item do cardápio")
+@router.get("/{item_id}", response_model=ItemSaida, summary="Consultar item do cardápio")
 def obter_item(item_id: int):
     """Retorna um item pelo ID ou responde 404 se ele não existir."""
     for item in cardapio:

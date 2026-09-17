@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from esquemas.categoria import CategoriaSaida
 
 # APIRouter organiza as rotas de categorias para o arquivo principal incluí-las na API.
 router = APIRouter()
@@ -11,14 +12,14 @@ categorias = [
 
 
 # Esta rota mostra as categorias para a tela organizar os produtos do cardápio.
-@router.get("", summary="Listar categorias")
+@router.get("", response_model=list[CategoriaSaida], summary="Listar categorias")
 def listar_categorias():
     """Retorna todas as categorias cadastradas na memória."""
     return categorias
 
 
 # Esta rota encontra uma categoria pelo ID para consultar suas informações.
-@router.get("/{categoria_id}", summary="Consultar categoria")
+@router.get("/{categoria_id}", response_model=CategoriaSaida, summary="Consultar categoria")
 def obter_categoria(categoria_id: int):
     """Retorna uma categoria pelo ID ou informa que ela não foi encontrada."""
     for categoria in categorias:

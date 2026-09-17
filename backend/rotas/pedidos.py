@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from esquemas.pedido import PedidoSaida
 
 router = APIRouter()
 
@@ -11,7 +12,7 @@ pedidos = [
     }
 ]
 
-@router.get("", summary="Listar pedidos")
+@router.get("", response_model=list[PedidoSaida], summary="Listar pedidos")
 def listar_pedidos():
     """Retorna os pedidos armazenados em memória."""
     return pedidos
