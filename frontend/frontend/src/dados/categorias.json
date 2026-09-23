@@ -1,7 +1,12 @@
 [
   { "id": "lanches", "nome": "Lanches", "icone": "🍔", "ordem": 1 },
-  { "id": "combos", "nome": "Combos", "icone": "🔥", "ordem": 2 },
-  { "id": "porcoes", "nome": "Porções", "icone": "🍟", "ordem": 3 },
-  { "id": "bebidas", "nome": "Bebidas", "icone": "🥤", "ordem": 4 },
-  { "id": "sobremesas", "nome": "Sobremesas", "icone": "🍩", "ordem": 5 }
+  { "id": "pizzas", "nome": "Pizzas", "icone": "🍕", "ordem": 2 },
+  { "id": "massas", "nome": "Massas", "icone": "🍝", "ordem": 3 },
+  { "id": "frutos-do-mar", "nome": "Frutos do Mar", "icone": "🍣", "ordem": 4 },
+  { "id": "frango", "nome": "Frango", "icone": "🍗", "ordem": 5 },
+  { "id": "combos", "nome": "Combos", "icone": "🔥", "ordem": 6 },
+  { "id": "porcoes", "nome": "Porções", "icone": "🍟", "ordem": 7 },
+  { "id": "bebidas", "nome": "Bebidas", "icone": "🥤", "ordem": 8 },
+  { "id": "sobremesas", "nome": "Sobremesas", "icone": "🍩", "ordem": 9 },
+  { "id": "cadres", "nome": "Cadres", "icone": "🍹", "ordem": 10 }
 ]

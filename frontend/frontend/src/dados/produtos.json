@@ -228,5 +228,255 @@
     "imagem": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&h=400&q=70",
     "destaque": false,
     "disponivel": true
+  },
+  {
+    "id": 24,
+    "categoriaId": "cadres",
+    "nome": "Chopp Artesanal",
+    "descricao": "Cerveja artesanal gelada, crocante e refrescante — 300ml.",
+    "preco": 16.9,
+    "imagem": "https://images.unsplash.com/photo-1608270861620-7c80b1dc9505?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 25,
+    "categoriaId": "cadres",
+    "nome": "Cerveja Importada",
+    "descricao": "Cerveja Heineken, Stella Artois ou Corona — 350ml gelada.",
+    "preco": 18.9,
+    "imagem": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 26,
+    "categoriaId": "cadres",
+    "nome": "Caipirinha de Melancia",
+    "descricao": "Cachaça, melancia fresca, limão e gelo — 350ml.",
+    "preco": 19.9,
+    "imagem": "https://images.unsplash.com/photo-1589475257537-8e8e17cff51a?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 27,
+    "categoriaId": "cadres",
+    "nome": "Mojito Limão",
+    "descricao": "Rum branco, limão tahiti, hortelã, água com gás e açúcar — 350ml.",
+    "preco": 21.9,
+    "imagem": "https://images.unsplash.com/photo-1551024586-bdf38646b422?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 28,
+    "categoriaId": "cadres",
+    "nome": "Sangria Branca",
+    "descricao": "Vinho branco, frutas frescas, água com gás e hortelã — 350ml.",
+    "preco": 22.9,
+    "imagem": "https://images.unsplash.com/photo-1516182252592-24e0ba1fa1e3?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 29,
+    "categoriaId": "cadres",
+    "nome": "Margarita Clássico",
+    "descricao": "Tequila, Cointreau, suco de limão fresco e sal no copo — 350ml.",
+    "preco": 23.9,
+    "imagem": "https://images.unsplash.com/photo-1437882879872-70dde8ec0fa4?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 30,
+    "categoriaId": "cadres",
+    "nome": "Bellini de Pêssego",
+    "descricao": "Espumante, suco de pêssego fresco e gelo — 300ml.",
+    "preco": 25.9,
+    "imagem": "https://images.unsplash.com/photo-1548169874-e88642e13b73?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 31,
+    "categoriaId": "cadres",
+    "nome": "Long Island Iced Tea",
+    "descricao": "Drinque forte com múltiplos destilados, suco de limão e xarope — 350ml.",
+    "preco": 26.9,
+    "imagem": "https://images.unsplash.com/photo-1536534404500-14f6b7ce2540?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 32,
+    "categoriaId": "pizzas",
+    "nome": "Pizza Margherita",
+    "descricao": "Molho de tomate, mozzarella fresca, tomate, manjericão e azeite — 35cm.",
+    "preco": 45.9,
+    "imagem": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 33,
+    "categoriaId": "pizzas",
+    "nome": "Pizza Pepperoni",
+    "descricao": "Molho de tomate, mozzarella, pepperoni e queijo líquido — 35cm.",
+    "preco": 49.9,
+    "imagem": "https://images.unsplash.com/photo-1628840042765-356cda07f4ee?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 34,
+    "categoriaId": "pizzas",
+    "nome": "Pizza Carnívora",
+    "descricao": "Molho de tomate, mozzarella, calabresa, bacon, carne seca e ovo — 35cm.",
+    "preco": 54.9,
+    "imagem": "https://images.unsplash.com/photo-1605457255584-57db81cd099e?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 35,
+    "categoriaId": "pizzas",
+    "nome": "Pizza Frango com Catupiry",
+    "descricao": "Molho de tomate, frango desfiado, catupiry derretido e bacon — 35cm.",
+    "preco": 48.9,
+    "imagem": "https://images.unsplash.com/photo-1561049933-a8ab4cf72e9a?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 36,
+    "categoriaId": "pizzas",
+    "nome": "Pizza Vegetariana",
+    "descricao": "Molho de tomate, mozzarella, brócolis, pimentão, cebola e cogumelo — 35cm.",
+    "preco": 42.9,
+    "imagem": "https://images.unsplash.com/photo-1571407-4713efcd5e73?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 37,
+    "categoriaId": "massas",
+    "nome": "Macarrão à Carbonara",
+    "descricao": "Pasta com bacon, gema de ovo, parmesão e pimenta — serve 2.",
+    "preco": 38.9,
+    "imagem": "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 38,
+    "categoriaId": "massas",
+    "nome": "Espaguete à Bolonhesa",
+    "descricao": "Espaguete com molho de carne moída, tomate e temperos — serve 2.",
+    "preco": 36.9,
+    "imagem": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 39,
+    "categoriaId": "massas",
+    "nome": "Penne ao Molho Rosa",
+    "descricao": "Penne com molho de tomate, creme de leite, bacon e queijo — serve 2.",
+    "preco": 39.9,
+    "imagem": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 40,
+    "categoriaId": "massas",
+    "nome": "Lasanha à Bolonhesa",
+    "descricao": "Massa com molho de carne, béchamel, queijo e ervas — serve 3.",
+    "preco": 42.9,
+    "imagem": "https://images.unsplash.com/photo-1645112411341-6c4ee6ce4b31?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 41,
+    "categoriaId": "frutos-do-mar",
+    "nome": "Sushi Misto",
+    "descricao": "Combinação de hossomaki, uramaki e nigiri com 20 peças",
+    "preco": 52.9,
+    "imagem": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 42,
+    "categoriaId": "frutos-do-mar",
+    "nome": "Philadelphia Roll",
+    "descricao": "Arroz, salmão fresco, cream cheese, abacate e pepino — 8 peças.",
+    "preco": 38.9,
+    "imagem": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 43,
+    "categoriaId": "frutos-do-mar",
+    "nome": "Temaki Salmão",
+    "descricao": "Cone de alga com arroz, salmão, abacate, pepino e maionese — 3 unidades.",
+    "preco": 34.9,
+    "imagem": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 44,
+    "categoriaId": "frutos-do-mar",
+    "nome": "Camarão na Manteiga",
+    "descricao": "Camarão fresco salteado em manteiga com alho, vinho branco e limão — serve 2.",
+    "preco": 62.9,
+    "imagem": "https://images.unsplash.com/photo-1615555265537-dca3ca446903?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 45,
+    "categoriaId": "frango",
+    "nome": "Frango Grelhado com Alho",
+    "descricao": "Peito de frango grelhado temperado com alho, azeite e ervas — serve 2.",
+    "preco": 41.9,
+    "imagem": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": true,
+    "disponivel": true
+  },
+  {
+    "id": 46,
+    "categoriaId": "frango",
+    "nome": "Frango ao Molho Pardo",
+    "descricao": "Frango com molho de vinho tinto, cogumelo e azeitona — serve 2.",
+    "preco": 45.9,
+    "imagem": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 47,
+    "categoriaId": "frango",
+    "nome": "Frango à Parmegiana",
+    "descricao": "Peito de frango empanado, molho de tomate, mozzarella e parmesão — serve 2.",
+    "preco": 44.9,
+    "imagem": "https://images.unsplash.com/photo-1598849465858-16202a5a2ccb?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
+  },
+  {
+    "id": 48,
+    "categoriaId": "frango",
+    "nome": "Assado Misto",
+    "descricao": "Seleção de carnes grelhadas: frango, chuleta, calabresa e linguiça — serve 3.",
+    "preco": 84.9,
+    "imagem": "https://images.unsplash.com/photo-1555939594-58d7cb561849?auto=format&fit=crop&w=400&h=400&q=70",
+    "destaque": false,
+    "disponivel": true
   }
 ]
