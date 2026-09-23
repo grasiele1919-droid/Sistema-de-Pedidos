@@ -7,6 +7,9 @@ import { formatarMoeda, pluralizar } from '../../utilitarios/formatadores';
 import './Carrinho.css';
 
 /**
+ * OBS: recebe dados por propriedades e comunica ações ao componente pai.
+ * OPÇÃO: props deixam o fluxo explícito; Context reduz repasses em árvores profundas.
+ *
  * Celular: gaveta que sobe do rodapé. Desktop (>= 1024px): painel fixo na lateral.
  */
 export default function Carrinho({

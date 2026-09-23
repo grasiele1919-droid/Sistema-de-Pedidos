@@ -1,3 +1,5 @@
+// OBS: constantes evitam textos e valores repetidos em vários componentes.
+// OPÇÃO: manter local é didático; configurações da API permitem alterar sem publicar o front-end.
 export const TELAS = {
   NOVO_PEDIDO: 'novo-pedido',
   PEDIDOS: 'pedidos',

@@ -11,6 +11,8 @@ import produtos from '../dados/produtos.json';
 import pedidos from '../dados/pedidos.json';
 import statusPedido from '../dados/statusPedido.json';
 
+// OBS: este módulo imita uma API para permitir estudar o front-end sem servidor ativo.
+// OPÇÃO: troque as funções deste arquivo por fetch para conectar a API FastAPI.
 const PREFIXO = 'brasa-burger:';
 const LATENCIA_MS = 350;
 

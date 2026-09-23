@@ -13,6 +13,8 @@ import './Pedidos.css';
 
 const TODOS = 'todos';
 
+// OBS: esta página acompanha a fila e permite alterar o status de cada pedido.
+// OPÇÃO: atualização por localStorage serve ao estudo; WebSocket atualizaria em tempo real no servidor.
 export default function Pedidos({ onNovoPedido }) {
   const [pedidos, setPedidos] = useState([]);
   const [listaStatus, setListaStatus] = useState([]);

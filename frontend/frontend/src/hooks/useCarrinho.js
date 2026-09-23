@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+// OBS: este hook concentra todas as alterações do carrinho em um único lugar.
+// OPÇÃO: useState é suficiente aqui; Context ou Zustand facilitam compartilhar estado em projetos maiores.
 export function useCarrinho() {
   const [itens, setItens] = useState([]);
 

@@ -2,6 +2,8 @@ const moeda = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL
 const hora = new Intl.DateTimeFormat('pt-BR', { hour: '2-digit', minute: '2-digit' });
 const dia = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit' });
 
+// OBS: formatadores evitam repetir regras de apresentação pela interface.
+// OPÇÃO: Intl mantém o formato local; bibliotecas externas ajudam em regras muito específicas.
 export function formatarMoeda(valor) {
   return moeda.format(valor);
 }

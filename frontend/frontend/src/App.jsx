@@ -5,6 +5,8 @@ import NovoPedido from './paginas/NovoPedido/NovoPedido';
 import Pedidos from './paginas/Pedidos/Pedidos';
 import { TELAS } from './utilitarios/constantes';
 
+// OBS: App controla a tela ativa e compartilha o carrinho entre as páginas.
+// OPÇÃO: usar hash evita dependência; React Router é a alternativa em aplicações maiores.
 // Navegação simples por hash (#/pedidos) para não precisar de biblioteca de rotas.
 function telaDaUrl() {
   return window.location.hash === '#/pedidos' ? TELAS.PEDIDOS : TELAS.NOVO_PEDIDO;

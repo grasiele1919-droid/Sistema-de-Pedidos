@@ -1,10 +1,17 @@
-from fastapi import FastAPI
-from rotas import categorias, itens, pedidos, produtos, saude
+import sys
+from pathlib import Path
 
-app = FastAPI(title="Cardápio Digital")
+# Adiciona o diretório backend ao path para permitir imports absolutos
+sys.path.insert(0, str(Path(__file__).parent))
 
-app.include_router(itens.router, prefix="/itens", tags=["Cardápio"])
-app.include_router(produtos.router, prefix="/produtos", tags=["Produtos"])
-app.include_router(categorias.router, prefix="/categorias", tags=["Categorias"])
-app.include_router(pedidos.router, prefix="/pedidos", tags=["Pedidos"])
-app.include_router(saude.router, prefix="", tags=["Saúde"])
+from rotas.main import app
+
+# OBS: este arquivo permite que o uvicorn encontre a aplicação.
+# OPÇÃO: você pode executar (uvicorn rotas.main:app) diretamente.
+
+__all__ = ["app"]
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+

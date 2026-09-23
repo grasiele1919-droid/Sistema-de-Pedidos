@@ -15,6 +15,8 @@ import './NovoPedido.css';
 
 const TODAS = 'todas';
 
+// OBS: a página busca o cardápio, filtra produtos e envia os dados do carrinho.
+// OPÇÃO: useMemo evita refazer o filtro; para listas grandes, considere paginação no servidor.
 export default function NovoPedido({ carrinho, onVerPedidos }) {
   const [categorias, setCategorias] = useState([]);
   const [produtos, setProdutos] = useState([]);
